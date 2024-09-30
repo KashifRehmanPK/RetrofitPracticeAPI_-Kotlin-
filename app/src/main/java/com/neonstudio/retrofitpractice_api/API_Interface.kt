@@ -24,13 +24,16 @@ interface API_Interface {
 
 
 
-//    // Update
-//    @PUT("items/{id}")
-//    fun updateItem(@Path("id") id: Int, @Body item: Item): Call<Item>
-//
-//    // Delete
-//    @DELETE("items/{id}")
-//    fun deleteItem(@Path("id") id: Int): Call<Void>
+    // Update
+    @PUT("posts/{id}")
+    fun updateItem(@Path("id") id: Int, @Body postItem: ResponsePostModelClassItem): Call<ResponsePostModelClassItem>
+
+
+
+
+    // Delete
+    @DELETE("posts/{id}")
+    fun deleteItem(@Path("id") id: Int): Call<ResponsePostModelClassItem>
 
 
 }

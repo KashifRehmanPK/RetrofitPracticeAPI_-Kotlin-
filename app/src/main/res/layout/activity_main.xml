@@ -20,7 +20,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btnNewMeme"
+        android:id="@+id/btnGet"
         android:text="Get Title" />
 
 
@@ -29,6 +29,20 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnPost"
         android:text="Post Data" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPut"
+        android:text="Put Data" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btndelete"
+        android:text="Delete Data" />
 
 
 </LinearLayout>
